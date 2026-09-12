@@ -1,0 +1,9 @@
+{
+  "name": "simple-login-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple name, age and email form with server-side storage",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {"express": "^5.1.0", "better-sqlite3": "^12.4.1"}
+}
