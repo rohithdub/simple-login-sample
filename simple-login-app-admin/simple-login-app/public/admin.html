@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Admin Login</h1>
+    <p class="subtitle">Sign in to view submitted users.</p>
+
+    <form id="adminLoginForm">
+      <label for="email">Admin email</label>
+      <input id="email" name="email" type="email" autocomplete="username" required>
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+
+      <button type="submit">Sign in</button>
+      <p id="message" role="status"></p>
+    </form>
+
+    <p class="small-link"><a href="/">Back to registration</a></p>
+  </main>
+  <script src="/admin.js"></script>
+</body>
+</html>
